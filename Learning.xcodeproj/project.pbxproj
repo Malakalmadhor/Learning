@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		808F6F202CCF7EA9007A9C6A /* BrownDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F6F1F2CCF7EA9007A9C6A /* BrownDayView.swift */; };
+		808F6F222CCF7EB2007A9C6A /* BlueDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F6F212CCF7EB2007A9C6A /* BlueDayView.swift */; };
+		809175122CCE726400A13323 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809175112CCE726400A13323 /* Model.swift */; };
+		809175142CCE726E00A13323 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809175132CCE726E00A13323 /* Views.swift */; };
+		809175172CCE729400A13323 /* ViewModelTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809175162CCE729400A13323 /* ViewModelTask.swift */; };
 		80D2FD2D2CC628950082C860 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2FD2C2CC628950082C860 /* LearningApp.swift */; };
 		80D2FD2F2CC628950082C860 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2FD2E2CC628950082C860 /* ContentView.swift */; };
 		80D2FD312CC628970082C860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D2FD302CC628970082C860 /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		808F6F1F2CCF7EA9007A9C6A /* BrownDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownDayView.swift; sourceTree = "<group>"; };
+		808F6F212CCF7EB2007A9C6A /* BlueDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueDayView.swift; sourceTree = "<group>"; };
+		809175112CCE726400A13323 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		809175132CCE726E00A13323 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		809175162CCE729400A13323 /* ViewModelTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTask.swift; sourceTree = "<group>"; };
 		80D2FD292CC628950082C860 /* Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D2FD2C2CC628950082C860 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		80D2FD2E2CC628950082C860 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,9 +81,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8091750F2CCE723800A13323 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				809175132CCE726E00A13323 /* Views.swift */,
+				808F6F1F2CCF7EA9007A9C6A /* BrownDayView.swift */,
+				808F6F212CCF7EB2007A9C6A /* BlueDayView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		809175102CCE725600A13323 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				809175112CCE726400A13323 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		809175152CCE728400A13323 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				809175162CCE729400A13323 /* ViewModelTask.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		80D2FD202CC628950082C860 = {
 			isa = PBXGroup;
 			children = (
+				809175152CCE728400A13323 /* ViewModel */,
+				809175102CCE725600A13323 /* Model */,
+				8091750F2CCE723800A13323 /* view */,
 				80D2FD2B2CC628950082C860 /* Learning */,
 				80D2FD3C2CC628970082C860 /* LearningTests */,
 				80D2FD462CC628970082C860 /* LearningUITests */,
@@ -258,7 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				80D2FD2F2CC628950082C860 /* ContentView.swift in Sources */,
+				809175142CCE726E00A13323 /* Views.swift in Sources */,
 				80D2FD2D2CC628950082C860 /* LearningApp.swift in Sources */,
+				808F6F222CCF7EB2007A9C6A /* BlueDayView.swift in Sources */,
+				808F6F202CCF7EA9007A9C6A /* BrownDayView.swift in Sources */,
+				809175172CCE729400A13323 /* ViewModelTask.swift in Sources */,
+				809175122CCE726400A13323 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
